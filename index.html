@@ -36,12 +36,9 @@
         <textarea class="col-md-10 description past"></textarea>
         <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
       </div>
+      
+      
 
-      <div class="row time-block" id="10">
-        <div class="col-md-1 hour">9 AM</div>
-        <textarea class="col-md-10 description past"></textarea>
-        <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
-      </div>
 
       <div class="row time-block" id="9">
         <div class="col-md-1 hour">10 AM</div>
@@ -93,16 +90,11 @@
  </div>
 
     </div>
-    <script src ="script.js"></script>
+    <script src ="./script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
     <script>
-      function updateCurrentDay() {
-      $("#currentDay").text(dayjs().format("dddd, MMMM D"));
-    }
-
-    // Call the function to update current day
-    updateCurrentDay();
+      
     </script>
   </body>
 </html>
